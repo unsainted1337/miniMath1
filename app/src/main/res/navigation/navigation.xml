@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_equation"
+    android:id="@+id/navigation">
+
+    <fragment
+        android:id="@+id/nav_equation"
+        android:name="com.ntsoftware.vspc.minimath.modules.EquationFragment"
+        android:label="Квадратное уравнение"
+        tools:layout="@layout/fragment_equation"/>
+
+    <fragment
+        android:id="@+id/nav_triangle"
+        android:name="com.ntsoftware.vspc.minimath.modules.TriangleFragment"
+        android:label="Треугольник"
+        tools:layout="@layout/fragment_triangle"/>
+
+</navigation>
