@@ -143,6 +143,7 @@
             </LinearLayout>
 
             <TextView
+                android:layout_marginTop="16dp"
                 android:id="@+id/equation_nonroot"
                 android:visibility="gone"
                 android:text="ДЕЙСТВИТЕЛЬНЫХ КОРНЕЙ НЕТ"
