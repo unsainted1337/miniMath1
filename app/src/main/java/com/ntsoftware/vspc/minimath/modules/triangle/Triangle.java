@@ -8,6 +8,10 @@ public class Triangle {
 
     private double side_c;
 
+    public static float getSquare(int a, int h) {
+        return (a*h) / 2f;
+    }
+
     public Triangle() {
     }
 

@@ -10,4 +10,6 @@
 
     <color name="equation_primary">#757AFF</color>
     <color name="equation_primary_red">#FF7575</color>
+
+    <color name="triangle_primary">#FF75CC</color>
 </resources>
