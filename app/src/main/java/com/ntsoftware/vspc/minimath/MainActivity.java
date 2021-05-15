@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_equation, R.id.nav_triangle)
+                R.id.nav_equation, R.id.nav_triangle, R.id.nav_logarithms)
                 .setOpenableLayout(drawer)
                 .build();
 

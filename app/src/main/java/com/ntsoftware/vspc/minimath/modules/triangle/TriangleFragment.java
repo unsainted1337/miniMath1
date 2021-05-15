@@ -1,4 +1,4 @@
-package com.ntsoftware.vspc.minimath.modules;
+package com.ntsoftware.vspc.minimath.modules.triangle;
 
 import android.os.Bundle;
 
@@ -30,8 +30,7 @@ public class TriangleFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_triangle, container, false);
     }
 }
